@@ -7,6 +7,7 @@ import re
 import urllib
 from cookielib import CookieJar
 import os
+import lxml
 import datetime
 try:
     import requests
@@ -53,7 +54,7 @@ def getSoupFromMechanize(url):
             br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
             r = br.open(url, timeout=10)
             html = r.read()
-            soup = bs4.BeautifulSoup(html)
+            soup = bs4.BeautifulSoup(html,lxml)
             # soup = bs4.BeautifulSoup(html,"html.parser")
             return soup
         except Exception as e:
@@ -98,7 +99,7 @@ def getOpener(site_name,base_url):
     return opener
 
 
-def getSoupFormOpener(opener,url,retryCount=3):
+def getSoupFromOpener(opener,url,retryCount=3):
     count = 0
     while(1):
         try:
