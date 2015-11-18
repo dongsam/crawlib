@@ -83,19 +83,19 @@ def getOnlyDigit(str,int=0):
 
 
 
-
-
-def getOpener():
-    cj = CookieJar()
-    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-    opener.addheaders = [
-        ('Host', site_name),
-        ('Cookie', 'ASPSESSIONIDCQRBTBQT='),
-        ('Connection', 'keep-alive'),
-        ('User-Agent',''),
-        ('Referer',base_url)
-    ]
-    return opener
+#
+#
+# def getOpener():
+#     cj = CookieJar()
+#     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+#     opener.addheaders = [
+#         ('Host', site_name),
+#         ('Cookie', 'ASPSESSIONIDCQRBTBQT='),
+#         ('Connection', 'keep-alive'),
+#         ('User-Agent',''),
+#         ('Referer',base_url)
+#     ]
+#     return opener
 
 
 def getSoupFormOpener(opener,url,retryCount=3):
@@ -194,6 +194,6 @@ def iframe_extract(url):
     return res
 
 # link = "http://autocafe.co.kr/ASSO/CarCheck_Form.asp?OnCarNo=201430246345"
-opener = getOpener()
+# opener = getOpener()
 # result = opener.open(link).read()
 # soup  = bs4.BeautifulSoup(result)
