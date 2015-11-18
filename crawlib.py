@@ -97,27 +97,27 @@ def getOnlyDigit(str,int=0):
 #     ]
 #     return opener
 
-
-def getSoupFormOpener(opener,url,retryCount=3):
-    count = 0
-    while(1):
-        try:
-            url = urllib.unquote(url)
-            url = url.encode("utf-8")
-        except Exception as e:
-            print e
-        try:
-            html = opener.open(url).read()
-            soup = bs4.BeautifulSoup(html)
-            break
-        except Exception as e:
-            print u"\tretry\t",url,e
-            opener = getOpener()
-            count += 1
-            if count > retryCount:
-                return 0
-            continue
-    return soup
+#
+# def getSoupFormOpener(opener,url,retryCount=3):
+#     count = 0
+#     while(1):
+#         try:
+#             url = urllib.unquote(url)
+#             url = url.encode("utf-8")
+#         except Exception as e:
+#             print e
+#         try:
+#             html = opener.open(url).read()
+#             soup = bs4.BeautifulSoup(html)
+#             break
+#         except Exception as e:
+#             print u"\tretry\t",url,e
+#             opener = getOpener()
+#             count += 1
+#             if count > retryCount:
+#                 return 0
+#             continue
+#     return soup
 
 
 def downImage(path,url):
