@@ -32,4 +32,4 @@ vendor.tags
 tmtagsHistory
 *.sublime-project
 *.sublime-workspace
-.bundle
+.bundle 
