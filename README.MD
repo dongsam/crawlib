@@ -2,8 +2,10 @@
 
 ## Using Librarys
 - BeautifulSoup4
-- mechanize
+- PySocks
 - requests
+- mechanize
+- grequests
 
 ## Detail
 - TBD
