@@ -1,0 +1,401 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2016-02-02T05:04:49.783Z",
+        "time": 33.697000006213784,
+        "request": {
+          "method": "GET",
+          "url": "https://apis.naver.com/commentBox/cbox5/web_naver_list_jsonp.json?ticket=news&templateId=default_life&_callback=window.__cbox_jindo_callback._4054&lang=ko&country=KR&objectId=news081%2C0002677411&categoryId=&pageSize=20&indexSize=10&groupId=&page=2&sort=FAVORITE&current=545227245",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": ":host",
+              "value": "apis.naver.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+            },
+            {
+              "name": ":path",
+              "value": "/commentBox/cbox5/web_naver_list_jsonp.json?ticket=news&templateId=default_life&_callback=window.__cbox_jindo_callback._4054&lang=ko&country=KR&objectId=news081%2C0002677411&categoryId=&pageSize=20&indexSize=10&groupId=&page=2&sort=FAVORITE&current=545227245"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": ":version",
+              "value": "HTTP/1.1"
+            },
+            {
+              "name": "referer",
+              "value": "http://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=081&aid=0002677411&date=20160202&type=1&rankingSeq=1&rankingSectionId=103&m_view=1&m_url=%2Fcomment%2Fall.nhn%3FserviceId%3Dnews%26gno%3Dnews081%2C0002677411%26sort%3Dlikability"
+            },
+            {
+              "name": "cookie",
+              "value": "NNB=D6HLQJ7JHCYFM; page_uid=SrsGIdpydfZsscNKMhVssssssZG-517942; _naver_usersession_=y4iZhg7hYz+SseRR5x3hww==; npic=1jP7ez+DHcJGEIdrjGoTcC6jPqs4TafX3y9Jdf7IxsewS2KKg6rDZ9awJmFHjZjDCA=="
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ticket",
+              "value": "news"
+            },
+            {
+              "name": "templateId",
+              "value": "default_life"
+            },
+            {
+              "name": "_callback",
+              "value": "window.__cbox_jindo_callback._4054"
+            },
+            {
+              "name": "lang",
+              "value": "ko"
+            },
+            {
+              "name": "country",
+              "value": "KR"
+            },
+            {
+              "name": "objectId",
+              "value": "news081%2C0002677411"
+            },
+            {
+              "name": "categoryId",
+              "value": ""
+            },
+            {
+              "name": "pageSize",
+              "value": "20"
+            },
+            {
+              "name": "indexSize",
+              "value": "10"
+            },
+            {
+              "name": "groupId",
+              "value": ""
+            },
+            {
+              "name": "page",
+              "value": "2"
+            },
+            {
+              "name": "sort",
+              "value": "FAVORITE"
+            },
+            {
+              "name": "current",
+              "value": "545227245"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "NNB",
+              "value": "D6HLQJ7JHCYFM",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "page_uid",
+              "value": "SrsGIdpydfZsscNKMhVssssssZG-517942",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_naver_usersession_",
+              "value": "y4iZhg7hYz+SseRR5x3hww==",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "npic",
+              "value": "1jP7ez+DHcJGEIdrjGoTcC6jPqs4TafX3y9Jdf7IxsewS2KKg6rDZ9awJmFHjZjDCA==",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Feb 2016 05:04:49 GMT"
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "version",
+              "value": "HTTP/1.1"
+            },
+            {
+              "name": "content-type",
+              "value": "application/javascript;charset=UTF-8"
+            },
+            {
+              "name": "status",
+              "value": "200 OK"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, proxy-revalidate, max-age=0"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 01 Jan 1970 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26832,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 26910
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.386000028811395,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.28300000121817,
+          "wait": 28.126999968662833,
+          "receive": 4.901000007521386,
+          "ssl": -1
+        },
+        "connection": "2145384"
+      },
+      {
+        "startedDateTime": "2016-02-02T05:04:49.788Z",
+        "time": 11.547999980393797,
+        "request": {
+          "method": "GET",
+          "url": "http://cc.naver.com/cc?a=RPC.more&r=&i=&bw=1440&px=622&py=3349&sx=622&sy=97&m=0&nsc=news.ranking&u=http%3A%2F%2Fnews.naver.com%2Fmain%2Franking%2Fread.nhn%3Fmid%3Detc%26sid1%3D111%26rankingType%3Dpopular_day%26oid%3D081%26aid%3D0002677411%26date%3D20160202%26type%3D1%26rankingSeq%3D1%26rankingSectionId%3D103%26m_view%3D1%26m_url%3D%252Fcomment%252Fall.nhn%253FserviceId%253Dnews%2526gno%253Dnews081%252C0002677411%2526sort%253Dlikability%23&time=1454389489788",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cc.naver.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=081&aid=0002677411&date=20160202&type=1&rankingSeq=1&rankingSectionId=103&m_view=1&m_url=%2Fcomment%2Fall.nhn%3FserviceId%3Dnews%26gno%3Dnews081%2C0002677411%26sort%3Dlikability"
+            },
+            {
+              "name": "Cookie",
+              "value": "NNB=D6HLQJ7JHCYFM; page_uid=SrsGIdpydfZsscNKMhVssssssZG-517942; _naver_usersession_=y4iZhg7hYz+SseRR5x3hww==; npic=1jP7ez+DHcJGEIdrjGoTcC6jPqs4TafX3y9Jdf7IxsewS2KKg6rDZ9awJmFHjZjDCA=="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "a",
+              "value": "RPC.more"
+            },
+            {
+              "name": "r",
+              "value": ""
+            },
+            {
+              "name": "i",
+              "value": ""
+            },
+            {
+              "name": "bw",
+              "value": "1440"
+            },
+            {
+              "name": "px",
+              "value": "622"
+            },
+            {
+              "name": "py",
+              "value": "3349"
+            },
+            {
+              "name": "sx",
+              "value": "622"
+            },
+            {
+              "name": "sy",
+              "value": "97"
+            },
+            {
+              "name": "m",
+              "value": "0"
+            },
+            {
+              "name": "nsc",
+              "value": "news.ranking"
+            },
+            {
+              "name": "u",
+              "value": "http%3A%2F%2Fnews.naver.com%2Fmain%2Franking%2Fread.nhn%3Fmid%3Detc%26sid1%3D111%26rankingType%3Dpopular_day%26oid%3D081%26aid%3D0002677411%26date%3D20160202%26type%3D1%26rankingSeq%3D1%26rankingSectionId%3D103%26m_view%3D1%26m_url%3D%252Fcomment%252Fall.nhn%253FserviceId%253Dnews%2526gno%253Dnews081%252C0002677411%2526sort%253Dlikability%23"
+            },
+            {
+              "name": "time",
+              "value": "1454389489788"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "NNB",
+              "value": "D6HLQJ7JHCYFM",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "page_uid",
+              "value": "SrsGIdpydfZsscNKMhVssssssZG-517942",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_naver_usersession_",
+              "value": "y4iZhg7hYz+SseRR5x3hww==",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "npic",
+              "value": "1jP7ez+DHcJGEIdrjGoTcC6jPqs4TafX3y9Jdf7IxsewS2KKg6rDZ9awJmFHjZjDCA==",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1238,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 02 Feb 2016 05:04:49 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "P3P",
+              "value": "CP=\"ALL CURa ADMa DEVa TAIa OUR BUS IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC OTC\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "close"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Content-Length",
+              "value": "43"
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 01 Jan 1980 09:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 43,
+            "mimeType": "image/gif",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 367,
+          "bodySize": 43,
+          "_transferSize": 410
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.376000010874122,
+          "dns": 0.17999997362494496,
+          "connect": 4.635000019334253,
+          "send": 0.08299999171867967,
+          "wait": 5.5750000174157,
+          "receive": 0.6989999674260972,
+          "ssl": -1
+        },
+        "connection": "2145440"
+      }
+    ]
+  }
+}
