@@ -7,6 +7,10 @@
 - mechanize
 - grequests
 
+## quick start
+- `pip install -r requirements.txt`
+- TBD
+
 ## Detail
 - TBD
 - TBD
