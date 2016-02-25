@@ -1,8 +1,10 @@
 #-*- coding: utf-8 -*-
 import sys
 import codecs
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
-sys.stdin = codecs.getreader('utf-8')(sys.stdin)
+# sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+# sys.stdin = codecs.getreader('utf-8')(sys.stdin)
+
+
 # reload(sys)
 # sys.setdefaultencoding('utf-8')
 __author__ = 'dongsamb'
