@@ -2,4 +2,3 @@ BeautifulSoup4
 PySocks
 requests
 mechanize
-grequests
