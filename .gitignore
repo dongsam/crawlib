@@ -57,3 +57,8 @@ var/
 ##############
 *.model
 *.npy
+
+
+# crawlib #
+###########
+har.json
